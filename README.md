@@ -1,1 +1,1 @@
-https://ksi.fi.muni.cz
+https://ksi.fi.muni.cz/ulohy/514
