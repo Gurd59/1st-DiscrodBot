@@ -142,15 +142,15 @@ async def on_message(message: Message) -> None:
             mail = mail.replace(" ", "")
             email = get_notifier('email')
             settings = {
-                'host': 'ksi2022smtp.iamroot.eu',
+                'host': '',
                 'port': 465,
                 'ssl': True,
 
-                'username': 'user3788@ksi2022smtp.iamroot.eu',
-                'password': 'wireless-district-sandbar-dinner-tactful',
+                'username': '',
+                'password': '',
 
                 'to': mail,
-                'from': 'user3788@ksi2022smtp.iamroot.eu',
+                'from': '',
 
                 'subject': "Discord notification",
                 'message': f"someone mentioned you in channel {channel}",
